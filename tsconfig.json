@@ -2,5 +2,6 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true
-  }
+  },
+  "include": ["lib/mqttLib.jsx", "lib/storage.jsx", "lib/index.js", "src/mqttClient.jsx"],
 }
